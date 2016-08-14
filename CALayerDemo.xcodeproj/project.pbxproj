@@ -13,6 +13,7 @@
 		372761381D5473A700BA7F51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 372761361D5473A700BA7F51 /* Main.storyboard */; };
 		3727613A1D5473A700BA7F51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372761391D5473A700BA7F51 /* Assets.xcassets */; };
 		3727613D1D5473A700BA7F51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3727613B1D5473A700BA7F51 /* LaunchScreen.storyboard */; };
+		37DB07CE1D588148003E2524 /* LayerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DB07CD1D588148003E2524 /* LayerLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		372761391D5473A700BA7F51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3727613C1D5473A700BA7F51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3727613E1D5473A700BA7F51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37DB07CC1D588148003E2524 /* LayerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerLabel.h; sourceTree = "<group>"; };
+		37DB07CD1D588148003E2524 /* LayerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				3727613B1D5473A700BA7F51 /* LaunchScreen.storyboard */,
 				3727613E1D5473A700BA7F51 /* Info.plist */,
 				3727612D1D5473A700BA7F51 /* Supporting Files */,
+				37DB07CC1D588148003E2524 /* LayerLabel.h */,
+				37DB07CD1D588148003E2524 /* LayerLabel.m */,
 			);
 			path = CALayerDemo;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37DB07CE1D588148003E2524 /* LayerLabel.m in Sources */,
 				372761351D5473A700BA7F51 /* ViewController.m in Sources */,
 				372761321D5473A700BA7F51 /* AppDelegate.m in Sources */,
 				3727612F1D5473A700BA7F51 /* main.m in Sources */,
@@ -300,6 +306,7 @@
 				372761431D5473A700BA7F51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
